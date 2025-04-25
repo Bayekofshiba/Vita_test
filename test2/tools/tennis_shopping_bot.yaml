@@ -1,0 +1,30 @@
+identity:
+  author: bayek_test
+  name: test2
+  label:
+    en_US: test2
+    zh_Hans: test2
+    pt_BR: test2
+description:
+  human:
+    en_US: shopping app
+    zh_Hans: shopping app
+    pt_BR: shopping app
+  llm: shopping app
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
+    human_description:
+      en_US: shopping app
+      zh_Hans: shopping app
+      pt_BR: shopping app
+    llm_description: shopping app
+    form: llm
+extra:
+  python:
+    source: tools/test2.py
