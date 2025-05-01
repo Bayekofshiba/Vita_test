@@ -1,0 +1,30 @@
+identity:
+  author: bayekofshiba
+  name: tennis_shopping_bot
+  label:
+    en_US: tennisshoppingbot
+    zh_Hans: 网球器材购物助手
+    pt_BR: tennisshoppingbot
+description:
+  human:
+    en_US: A shopping app for purchasing tennis equipment
+    zh_Hans: 一个用于购买网球器材的购物应用
+    pt_BR: A shopping app for purchasing tennis equipment
+  llm: A shopping app for purchasing tennis equipment
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
+    human_description:
+      en_US: shoppingapp
+      zh_Hans: shoppingapp
+      pt_BR: shoppingapp
+    llm_description: shoppingapp
+    form: llm
+extra:
+  python:
+    source:tennis_shopping_bot.py
