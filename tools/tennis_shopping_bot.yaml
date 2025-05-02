@@ -27,4 +27,4 @@ parameters:
     form: llm
 extra:
   python:
-    source:tennis_shopping_bot.py
+    source: tools/tennis_shopping_bot.py
